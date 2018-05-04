@@ -1,5 +1,65 @@
 ## Towards datascience
 
+Intuition to  ADAM and RMSprop optimizers.
+
+Few ideas before getting started.
+
+Exponentially weighted averages:
+
+Lets take an example where temperature changes are captured over period of time,
+
+
+Θ1 = 2˚C  - Temperature at day1 
+Θ2 = 3˚C  - Temperature at day2 
+Θ3 = 5˚C  - Temperature at day3 
+...etc 
+ 
+ Weighted averages, 
+ V0  = 0 (Lets take initial value as 0)
+ V1  =  0.9  V0   + 0.1 Θ1 
+ V2  =  0.9  V1   + 0.1 Θ2
+ V3  =  0.9  V2   + 0.1 Θ3
+ .. etc
+
+Here β = 0.9
+Finally it's simple ,
+   V(base)t = β V(base)t-1 + (1-β) Θ(base)t
+
+t = current day.
+V(base)t = weighted average at 't' day.
+V(base)t-1 = weighted average at 't-1' day.
+Θ(base)t = temperature at current day. 
+
+In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
+
+Because of this this distribution is resisted towards the outliers and sudden changes in the data.
+
+Now, you might have a question that when  β= 0.9 how days number of days is been considered,
+
+ days = 1/(1-β) = 1/(1-0.9) = 10 
+ 
+ so if β = 0.9  approximately 10 days are taken.
+       β = 0.98 approximately 50 days
+       β = 0.5  approximately 2days
+
+	   
+Why we need weighted averages ?
+
+ To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 You can use the [editor on GitHub](https://github.com/towardsdatascience/towardsdatascience.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
