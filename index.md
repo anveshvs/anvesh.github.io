@@ -21,12 +21,12 @@
  <div>V3  =  0.9  V2   + 0.1 Θ3 </div>
   <div>.. etc  </div>
  </br>
- ```markdown
- Here β = 0.9 
- Finally it's simple , 
-   V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub>
+
+<div> Here β = 0.9 </div>
+<div> Finally it's simple , </div>
+ <div>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></div>
 </br>
-```
+
 t = current day.<br>
 <p>V<sub>t</sub> = weighted average at 't' day.</p></br>
 <p>V<sub>t-1</sub> = weighted average at 't-1' day.</p></br>
