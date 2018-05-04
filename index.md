@@ -12,7 +12,7 @@
 <div>Θ1 = 2˚C  - Temperature at day1</div> 
 <div>Θ2 = 3˚C  - Temperature at day2</div> 
 <div>Θ3 = 5˚C  - Temperature at day3 </div>
-<div style="margin-top:20px;">...etc </div>
+<div style="margin-bottom:20px;">...etc </div>
  
 
  <div>Weighted averages, </div>
@@ -20,12 +20,12 @@
  <div>V1  =  0.9  V0   + 0.1 Θ1</div> 
  <div>V2  =  0.9  V1   + 0.1 Θ2 </div>
  <div>V3  =  0.9  V2   + 0.1 Θ3 </div>
-  <div  style="margin-top:20px;">.. etc  </div>
+  <div  style="margin-bottom:20px;">.. etc  </div>
  
  
 <div> Here β = 0.9 </div>
 <div> Finally it's simple , </div>
-                  </tr> <div><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
+                  <div style="margin-bottom:20px;"><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
 
 
 <div>t = current day.</div>
@@ -33,24 +33,24 @@
 <div>V<sub>t-1</sub> = weighted average at 't-1' day.</div>
 <div  style="margin-top:20px;">Θ<sub>t</sub> = temperature at current day.</div></p>
 
-<div>	
+<div style="margin-bottom:20px;">	
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
 </div>
-<div>Because of this this distribution is resisted towards the outliers and sudden changes in the data.</div>
+<div style="margin-bottom:20px;">Because of this this distribution is resisted towards the outliers and sudden changes in the data.</div>
 
-<div>Now, you might have a question that when  β= 0.9 how days number of days is been considered,</div>
+<div style="margin-bottom:20px;">Now, you might have a question that when  β= 0.9 how days number of days is been considered,</div>
 
 
-<div> days = 1/(1-β) = 1/(1-0.9) = 10 </div>
+<div style="margin-bottom:20px;"> days = 1/(1-β) = 1/(1-0.9) = 10 </div>
 
 <div> so if β = 0.9  approximately 10 days are taken.</div>
     <div>   β = 0.98 approximately 50 days</div>
-    <div>   β = 0.5  approximately 2days</div>
+    <div style="margin-bottom:20px;">   β = 0.5  approximately 2days</div>
 	  
-<div>Why we need weighted averages ?</div>
+<divstyle="margin-bottom:10px;">Why we need weighted averages ?</div>
 
 
-<div> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
+<div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
 
  
 </html>
