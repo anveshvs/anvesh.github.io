@@ -7,7 +7,7 @@
 <h4>Exponentially weighted averages:</h4>
 
 <p>Lets take an example where temperature changes are captured over period of time, </p></br>
-
+<p>
 
 Θ1 = 2˚C  - Temperature at day1 </br>
 Θ2 = 3˚C  - Temperature at day2 </br>
@@ -29,7 +29,7 @@ t = current day.<br>
 <p>V<sub>t</sub> = weighted average at 't' day.</p></br>
 <p>V<sub>t-1</sub> = weighted average at 't-1' day.</p></br>
 <p>Θ<sub>t</sub> = temperature at current day. </p></br>
-
+</p>
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
 
 Because of this this distribution is resisted towards the outliers and sudden changes in the data.
