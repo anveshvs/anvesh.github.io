@@ -14,17 +14,19 @@
 <div>Θ3 = 5˚C  - Temperature at day3 </div>
 <div>...etc </div>
   
- Weighted averages, </br> 
- V0  = 0 (Lets take initial value as 0) </br>
- V1  =  0.9  V0   + 0.1 Θ1  </br>
- V2  =  0.9  V1   + 0.1 Θ2 </br>
- V3  =  0.9  V2   + 0.1 Θ3 </br>
- .. etc </br>
+ <div>Weighted averages, </div>
+ <div>V0  = 0 (Lets take initial value as 0)</div>
+ <div>V1  =  0.9  V0   + 0.1 Θ1</div> 
+ <div>V2  =  0.9  V1   + 0.1 Θ2 </div>
+ <div>V3  =  0.9  V2   + 0.1 Θ3 </div>
+  <div>.. etc  </div>
  </br>
-Here β = 0.9  </br>
-Finally it's simple , </br>
-   V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub> </br>
+ ```markdown
+ Here β = 0.9 
+ Finally it's simple , 
+   V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub>
 </br>
+```
 t = current day.<br>
 <p>V<sub>t</sub> = weighted average at 't' day.</p></br>
 <p>V<sub>t-1</sub> = weighted average at 't-1' day.</p></br>
