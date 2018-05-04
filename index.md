@@ -23,12 +23,12 @@
  </br>
 Here β = 0.9  </br>
 Finally it's simple , </br>
-   V(base)t = β V(base)t-1 + (1-β) Θ(base)t </br>
-
-t = current day.
-V(base)t = weighted average at 't' day.
-V(base)t-1 = weighted average at 't-1' day.
-Θ(base)t = temperature at current day. 
+   V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub> </br>
+</br>
+t = current day.<br>
+<p>V<sub>t</sub> = weighted average at 't' day.</p></br>
+<p>V<sub>t-1</sub> = weighted average at 't-1' day.</p></br>
+<p>Θ<sub>t</sub> = temperature at current day. </p></br>
 
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
 
