@@ -56,7 +56,7 @@ In weighted averages we take history data into consideration along with current 
 </html>
 
 
-
+___________________________________________________________________________________
 
  
 
