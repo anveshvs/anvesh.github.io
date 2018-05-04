@@ -1,10 +1,10 @@
-## Towards datascience
+##Towards datascience
 
 Intuition to  ADAM and RMSprop optimizers.
 
 <p>Few ideas before getting started.</p>
 
-<h3>Exponentially weighted averages:<h3>
+###Exponentially weighted averages:
 
 Lets take an example where temperature changes are captured over period of time, </p>
 
