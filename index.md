@@ -24,7 +24,7 @@
  
  
 <div> Here β = 0.9 </div>
-<div margin-bottom:10px;> Finally it's simple , </div>
+<div style="margin-bottom:10px;"> Finally it's simple , </div>
                   <div style="margin-bottom:20px;font-size: 20px;"><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
 
 
@@ -36,18 +36,18 @@
 <div style="margin-bottom:20px;">	
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
 </div>
-<div style="margin-bottom:20px;">Because of this this distribution is resisted towards the outliers and sudden changes in the data.</div>
+<div style="margin-bottom:10px;">Because of this this distribution is resisted towards the outliers and sudden changes in the data.</div>
 
-<div style="margin-bottom:20px;">Now, you might have a question that when  β= 0.9 how days number of days is been considered,</div>
+<div style="margin-bottom:10px;">Now, you might have a question that when  β= 0.9 how days number of days is been considered,</div>
 
 
-<div style="margin-bottom:20px;"> days = 1/(1-β) = 1/(1-0.9) = 10 </div>
+<div style="margin-bottom:10px;"> days = 1/(1-β) = 1/(1-0.9) = 10 </div>
 
 <div> so if β = 0.9  approximately 10 days are taken.</div>
     <div>   β = 0.98 approximately 50 days</div>
     <div style="margin-bottom:20px;">   β = 0.5  approximately 2days</div>
 	  
-<divstyle="margin-bottom:10px;">Why we need weighted averages ?</div>
+<div style="margin-bottom:10px;">Why we need weighted averages ?</div>
 
 
 <div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
