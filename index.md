@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/towardsdatascience/towards
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<h1>V1 =  0.9  V0   + 0.1 Θ1 </h1>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
