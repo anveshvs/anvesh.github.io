@@ -9,11 +9,11 @@
 <p>Lets take an example where temperature changes are captured over period of time, </p>
 
 
-<div>Θ1 = 2˚C  - Temperature at day1 </br>
-Θ2 = 3˚C  - Temperature at day2 </br>
-Θ3 = 5˚C  - Temperature at day3 </br>
-...etc </div </br>
-  </br>
+<div>Θ1 = 2˚C  - Temperature at day1</div> 
+<div>Θ2 = 3˚C  - Temperature at day2</div> 
+<div>Θ3 = 5˚C  - Temperature at day3 </div>
+<div>...etc </div>
+  
  Weighted averages, </br> 
  V0  = 0 (Lets take initial value as 0) </br>
  V1  =  0.9  V0   + 0.1 Θ1  </br>
