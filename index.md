@@ -4,10 +4,10 @@
 
 <p>Few concepts that are required , before getting started.</p>
 
-<h4>Exponentially weighted averages:</h4>
+<h4><u>Exponentially weighted averages:</u></h4>
 
-<p>Lets take an example where temperature changes are captured over period of time, </p></br>
-<p>
+<p>Lets take an example where temperature changes are captured over period of time, </p>
+
 
 Θ1 = 2˚C  - Temperature at day1 </br>
 Θ2 = 3˚C  - Temperature at day2 </br>
