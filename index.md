@@ -1,5 +1,5 @@
 
-<html>
+
 <h2>Intuition to  ADAM and RMSprop optimizers.</h2>
 
 <p>Few concepts that are required , before getting started.</p>
@@ -54,7 +54,7 @@ In weighted averages we take history data into consideration along with current 
 <div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
 
  
-</html>
+
 
 
 ___________________________________________________________________________________
