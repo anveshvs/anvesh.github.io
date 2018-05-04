@@ -4,7 +4,7 @@
 
 <p>Few concepts that are required , before getting started.</p>
 
-<h4>Exponentially weighted averages:<h4>
+<h4>Exponentially weighted averages:</h4>
 
 Lets take an example where temperature changes are captured over period of time, </p>
 
