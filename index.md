@@ -20,11 +20,9 @@
  <div>V2  =  0.9  V1   + 0.1 Θ2 </div>
  <div>V3  =  0.9  V2   + 0.1 Θ3 </div>
   <div>.. etc  </div>
- </br>
-
 <div> Here β = 0.9 </div>
 <div> Finally it's simple , </div>
- <div>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></div>
+ <h2>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></h2>
 </br>
 
 t = current day.<br>
