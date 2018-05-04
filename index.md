@@ -25,9 +25,10 @@
  
 <div> Here β = 0.9 </div>
 <div style="margin-bottom:10px;"> Finally it's simple , </div>
+```markdown
                   <div style="margin-bottom:20px;font-size: 20px;margin-left:5em">
 		  <b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
-
+```
 
 <div>t = current day.</div>
 <div>V<sub>t</sub> = weighted average at 't' day.</div>
