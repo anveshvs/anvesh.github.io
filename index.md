@@ -24,8 +24,8 @@
  
  
 <div> Here β = 0.9 </div>
-<div> Finally it's simple , </div>
-                  <div style="margin-bottom:20px;"><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
+<div margin-bottom:10px;> Finally it's simple , </div>
+                  <div style="margin-bottom:20px;font-size: 20px;"><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
 
 
 <div>t = current day.</div>
