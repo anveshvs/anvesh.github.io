@@ -25,13 +25,14 @@
  
 <div> Here β = 0.9 </div>
 <div style="margin-bottom:10px;"> Finally it's simple , </div>
-                  <div style="margin-bottom:20px;font-size: 20px;"><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
+                  <div style="margin-bottom:20px;font-size: 20px;margin-left:5em">
+		  <b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
 
 
 <div>t = current day.</div>
 <div>V<sub>t</sub> = weighted average at 't' day.</div>
 <div>V<sub>t-1</sub> = weighted average at 't-1' day.</div>
-<div  style="margin-top:20px;">Θ<sub>t</sub> = temperature at current day.</div></p>
+<div  style="margin-top:20px;">Θ<sub>t</sub> = temperature at current day.</div>
 
 <div style="margin-bottom:20px;">	
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
