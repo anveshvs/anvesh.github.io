@@ -1,4 +1,4 @@
-##Towards datascience
+
 
 <h2>Intuition to  ADAM and RMSprop optimizers.</h2>
 
@@ -6,24 +6,24 @@
 
 <h4>Exponentially weighted averages:</h4>
 
-Lets take an example where temperature changes are captured over period of time, </p>
+<p>Lets take an example where temperature changes are captured over period of time, </p></br>
 
 
 Θ1 = 2˚C  - Temperature at day1 </br>
 Θ2 = 3˚C  - Temperature at day2 </br>
 Θ3 = 5˚C  - Temperature at day3 </br>
-...etc 
- 
- Weighted averages, 
- V0  = 0 (Lets take initial value as 0)
- V1  =  0.9  V0   + 0.1 Θ1 
- V2  =  0.9  V1   + 0.1 Θ2
- V3  =  0.9  V2   + 0.1 Θ3
- .. etc
-
-Here β = 0.9
-Finally it's simple ,
-   V(base)t = β V(base)t-1 + (1-β) Θ(base)t
+...etc  </br>
+  </br>
+ Weighted averages, </br> 
+ V0  = 0 (Lets take initial value as 0) </br>
+ V1  =  0.9  V0   + 0.1 Θ1  </br>
+ V2  =  0.9  V1   + 0.1 Θ2 </br>
+ V3  =  0.9  V2   + 0.1 Θ3 </br>
+ .. etc </br>
+ </br>
+Here β = 0.9  </br>
+Finally it's simple , </br>
+   V(base)t = β V(base)t-1 + (1-β) Θ(base)t </br>
 
 t = current day.
 V(base)t = weighted average at 't' day.
