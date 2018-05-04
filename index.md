@@ -2,16 +2,16 @@
 
 Intuition to  ADAM and RMSprop optimizers.
 
-Few ideas before getting started.
+<p>Few ideas before getting started.</p>
 
-Exponentially weighted averages:
+<h3>Exponentially weighted averages:<h3>
 
-Lets take an example where temperature changes are captured over period of time,
+Lets take an example where temperature changes are captured over period of time, </p>
 
 
-Θ1 = 2˚C  - Temperature at day1 
-Θ2 = 3˚C  - Temperature at day2 
-Θ3 = 5˚C  - Temperature at day3 
+Θ1 = 2˚C  - Temperature at day1 </br>
+Θ2 = 3˚C  - Temperature at day2 </br>
+Θ3 = 5˚C  - Temperature at day3 </br>
 ...etc 
  
  Weighted averages, 
