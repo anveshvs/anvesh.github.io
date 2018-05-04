@@ -26,11 +26,10 @@
 <div> Here β = 0.9 </div>
 <div style="margin-bottom:10px;"> Finally it's simple , </div>
 
-                  <div style="margin-bottom:20px;font-size: 20px;margin-left:5em">
+<div style="margin-bottom:20px;font-size: 20px;margin-left:5em">
 		  <b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
-
-
 <div>t = current day.</div>
+
 <div>V<sub>t</sub> = weighted average at 't' day.</div>
 <div>V<sub>t-1</sub> = weighted average at 't-1' day.</div>
 <div  style="margin-top:20px;">Θ<sub>t</sub> = temperature at current day.</div>
@@ -49,7 +48,7 @@ In weighted averages we take history data into consideration along with current 
     <div>   β = 0.98 approximately 50 days</div>
     <div style="margin-bottom:20px;">   β = 0.5  approximately 2days</div>
 	  
-<div style="margin-bottom:10px;">Why we need weighted averages ?</div>
+<div style="margin-bottom:10px;color:red;">Why we need weighted averages ?</div>
 
 
 <div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
