@@ -12,7 +12,7 @@
 <div>Θ1 = 2˚C  - Temperature at day1</div> 
 <div>Θ2 = 3˚C  - Temperature at day2</div> 
 <div>Θ3 = 5˚C  - Temperature at day3 </div>
-<div>...etc </div>
+<div style="margin-top:20px;">...etc </div>
  
 
  <div>Weighted averages, </div>
@@ -20,18 +20,18 @@
  <div>V1  =  0.9  V0   + 0.1 Θ1</div> 
  <div>V2  =  0.9  V1   + 0.1 Θ2 </div>
  <div>V3  =  0.9  V2   + 0.1 Θ3 </div>
-  <div>.. etc  </div>
+  <div  style="margin-top:20px;">.. etc  </div>
  
  
 <div> Here β = 0.9 </div>
 <div> Finally it's simple , </div>
-                   <div><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
+                  </tr> <div><b>  V<sub>t</sub> = β V<sub>t-1</sub> + (1-β) Θ<sub>t</sub></b></div>
 
 
 <div>t = current day.</div>
 <div>V<sub>t</sub> = weighted average at 't' day.</div>
 <div>V<sub>t-1</sub> = weighted average at 't-1' day.</div>
-<div>Θ<sub>t</sub> = temperature at current day.</div></p>
+<div  style="margin-top:20px;">Θ<sub>t</sub> = temperature at current day.</div></p>
 
 <div>	
 In weighted averages we take history data into consideration along with current data , to get smoother curve.From above example we are taking previous weighted average with present temperature.
