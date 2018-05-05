@@ -1,10 +1,10 @@
 
 
-<h2>Intuition to  ADAM and RMSprop optimizers.</h2>
+<h1>Intuition to  ADAM and RMSprop optimizers.</h1>
 
 <p>Few concepts that are required , before getting started.</p>
 
-<h4><u>Exponentially weighted averages:</u></h4>
+<h3><u>Exponentially weighted averages:</u></h3>
 
 <p>Lets take an example where temperature changes are captured over period of time, </p>
 
@@ -46,7 +46,7 @@ In weighted averages we take history data into consideration along with current 
 
 
 <div> so if β = 0.9  approximately 10 days are taken.</div>
-    <div>   β = 0.98 approximately 50 days</div>
+    <div>β = 0.98 approximately 50 days</div>
     <div style="margin-bottom:20px;">β = 0.5  approximately 2days</div>
 
 <div style="margin-bottom:10px;color:red;">Why we need weighted averages ?</div>
