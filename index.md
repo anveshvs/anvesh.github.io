@@ -42,16 +42,17 @@ In weighted averages we take history data into consideration along with current 
 <div style="margin-bottom:10px;">Now, you might have a question that when  β= 0.9 how days number of days is been considered,</div>
 
 
-<div style="margin-bottom:10px;"> days = 1/(1-β) = 1/(1-0.9) = 10 </div>
+<div style="margin-bottom:10px;"> <b>days = 1/(1-β) = 1/(1-0.9) = 10</b> </div>
+
 
 <div> so if β = 0.9  approximately 10 days are taken.</div>
     <div>   β = 0.98 approximately 50 days</div>
-    <div style="margin-bottom:20px;">   β = 0.5  approximately 2days</div>
-	  
+    <div style="margin-bottom:20px;">β = 0.5  approximately 2days</div>
+
 <div style="margin-bottom:10px;color:red;">Why we need weighted averages ?</div>
 
 
-<div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other that data science this is used in the share market graph to understand the ground truth of the market.</div>
+<div style="margin-bottom:20px;"> To have robust distribution that resists the sudden fluctuation in the data or outliers. Other than data science this is used in the field of share market,where they represent weighted average graph to understand the ground truth of the market.</div>
 
  
 
